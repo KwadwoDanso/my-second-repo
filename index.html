@@ -4,10 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        .hero-image{
+            background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://miro.medium.com/v2/resize:fit:1400/1*n6x3LQ6XYw9gd8gewJm2LQ.jpeg");
+            height: 50%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        .hero-text{
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+
+        
+    </style>
     <title>Document</title>
 </head>
 <body>
-    <h2>Hero Section</h2>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h2>Hero Section</h2>
+        </div>
+    </div>
     <h2>Simple Contact form</h2>
     <form>
         <label for="fname">First name:</label><br>
